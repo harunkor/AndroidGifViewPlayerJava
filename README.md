@@ -12,18 +12,25 @@ Simple android view to display gifs efficiently. You can start, pause and stop g
 
 
 ```
-
-      GifMovieView gifViewPlayer =(GifMovieView) findViewById(R.id.gifViewPlayer);  //gif player layout variable.
-        gifViewPlayer.setMovieResource(R.drawable.carkifelek);  //  gif animation file set  in drawable folder.
-        gifViewPlayer.setMovie(gifViewPlayer.getMovie());  // gif animation Movie callback and set 
-        gifViewPlayer.setVisibility(View.INVISIBLE);  // gif animation hide.
-        gifViewPlayer.setVisibility(View.VISIBLE);   // gif animation  visible
-        gifViewPlayer.setMovieAssets("colorballprogress.gif"); // gif animation file set  in assets folder.
+      //gif player layout variable.
+            GifMovieView gifViewPlayer =(GifMovieView) findViewById(R.id.gifViewPlayer);  
+      //gif animation file set  in drawable folder.
+            gifViewPlayer.setMovieResource(R.drawable.carkifelek);  
+      //gif animation Movie callback and set 
+            gifViewPlayer.setMovie(gifViewPlayer.getMovie());  
+      // gif animation hide.        
+        gifViewPlayer.setVisibility(View.INVISIBLE); 
+      // gif animation  visible    
+        gifViewPlayer.setVisibility(View.VISIBLE);  
+      // gif animation file set  in assets folder.      
+        gifViewPlayer.setMovieAssets("colorballprogress.gif"); 
         String path = Environment.getExternalStorageDirectory()+"/Download/danc.gif";
-        gifViewPlayer.setMovieFile(path);  // gif animation file set in Android device.
+      // gif animation file set in Android device.   
+        gifViewPlayer.setMovieFile(path);
+      // gif animation (URL stream) show link.   
         gifViewPlayer.setMovieUrl
         ("https://scdn.androidcommunity.com/wp-content/uploads/2014/10/androidify2.gif");
-        // // gif animation (URL stream) show link.
+       
 
 
 ```
