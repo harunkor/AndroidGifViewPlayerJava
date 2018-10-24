@@ -6,7 +6,7 @@ Simple android view to display gifs efficiently. You can start, pause and stop g
 
 # Screen
 
-![](https://github.com/harunkor/AndroidGifViewPlayerJava/blob/master/ss.gif?raw=true)
+![](https://github.com/harunkor/AndroidGifViewPlayerJava/blob/master/ss.gif?raw=true  =240x400)
 
 # Usage
 
