@@ -66,5 +66,7 @@ Permission : (dependent on use)
   
 ```
 
+# WARNING! : compile sdk version should be 28.
+
 
 
