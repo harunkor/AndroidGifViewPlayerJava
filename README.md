@@ -57,8 +57,14 @@ Code :
             ("https://scdn.androidcommunity.com/wp-content/uploads/2014/10/androidify2.gif");
                
 ```
-
-
+ 
+Permission : (dependent on use)
+```
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  
+  
+```
 
 
 
