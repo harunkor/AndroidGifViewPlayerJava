@@ -10,6 +10,18 @@ Simple android view to display gifs efficiently. You can start, pause and stop g
 
 # Usage
 
+Layout : 
+
+```
+ <tr.com.harunkor.gifviewplayer.GifMovieView
+        android:id="@+id/gifViewPlayer"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+```
+
+
+
+
 
 ```
       //gif player layout variable.
@@ -30,9 +42,12 @@ Simple android view to display gifs efficiently. You can start, pause and stop g
       // gif animation (URL stream) show link.   
             gifViewPlayer.setMovieUrl
             ("https://scdn.androidcommunity.com/wp-content/uploads/2014/10/androidify2.gif");
-       
-
+            
+     
 
 ```
+
+
+
 
 
