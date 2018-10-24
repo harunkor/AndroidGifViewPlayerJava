@@ -21,8 +21,8 @@ allprojects {
 ```
 Step 2. Add the dependency
 ```
-	dependencies {
-	        implementation 'com.github.harunkor:AndroidGifViewPlayerJava:Tag'
+dependencies {
+	        implementation 'com.github.harunkor:AndroidGifViewPlayerJava:1.0.0'
 	}
 ```
 Layout : 
