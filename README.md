@@ -58,20 +58,26 @@ Code :
                
 ```
  
+# Manifest 
 Permission : (dependent on use)
 ```
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
   
-    <application
+  
+  
+  
+```
+Necessary :
+
+```
+  <application
         android:hardwareAccelerated="false"
 	.....
 	....
 	........
 	...
     </application>
-  
-  
 ```
 
 # WARNING! : compile sdk version should be 28.
