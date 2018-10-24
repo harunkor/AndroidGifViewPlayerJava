@@ -22,7 +22,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.harunkor:AndroidGifViewPlayerJava:1.0.1'
+	        implementation 'com.github.harunkor:AndroidGifViewPlayerJava:1.0.1'   
 	}
 ```
 Layout : 
