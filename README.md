@@ -19,9 +19,7 @@ Layout :
         android:layout_height="400dp"/>
 ```
 
-
-
-
+Code : 
 
 ```
       //gif player layout variable.
@@ -42,9 +40,7 @@ Layout :
       // gif animation (URL stream) show link.   
             gifViewPlayer.setMovieUrl
             ("https://scdn.androidcommunity.com/wp-content/uploads/2014/10/androidify2.gif");
-            
-     
-
+               
 ```
 
 
