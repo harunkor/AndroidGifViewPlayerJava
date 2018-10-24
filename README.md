@@ -10,6 +10,21 @@ Simple android view to display gifs efficiently. You can start, pause and stop g
 
 # Usage
 
+Step 1. Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.harunkor:AndroidGifViewPlayerJava:Tag'
+	}
+```
 Layout : 
 
 ```
