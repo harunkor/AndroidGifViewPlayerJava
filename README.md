@@ -63,6 +63,14 @@ Permission : (dependent on use)
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
   
+    <application
+        android:hardwareAccelerated="false"
+	.....
+	....
+	........
+	...
+    </application>
+  
   
 ```
 
