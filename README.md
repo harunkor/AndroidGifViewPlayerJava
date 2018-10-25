@@ -55,6 +55,10 @@ Code :
       // gif animation (URL stream) show link.   
             gifViewPlayer.setMovieUrl
             ("https://scdn.androidcommunity.com/wp-content/uploads/2014/10/androidify2.gif");
+     // gif animation pause
+     	    gifViewPlayer.setPaused(true);  
+     // gif animation play 
+            gifViewPlayer.setPaused(false);
                
 ```
  
